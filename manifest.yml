@@ -5,4 +5,6 @@ applications:
   random-route: true
   buildpack: java_buildpack_offline
   env:
-    WELCOME_MESSAGE: Hello from Cloud Foundry
+    WELCOME_MESSAGE: Hello from the review environment
+  routes:
+    - route: pal-tracker-fmcc-dev-test.apps.pikes.pal.pivotal.io
