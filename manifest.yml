@@ -7,4 +7,4 @@ applications:
   env:
     WELCOME_MESSAGE: Hello from the review environment
   routes:
-    - route: pal-tracker-fmcc-dev-test.apps.pikes.pal.pivotal.io
+  - route: pal-tracker-fmcc-dev-test.apps.pikes.pal.pivotal.io
